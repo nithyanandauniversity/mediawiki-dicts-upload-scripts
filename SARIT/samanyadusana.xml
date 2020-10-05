@@ -1,0 +1,1811 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-/YEVWs7BzxfKyUd6zVxjEQcXRWsLbcEjv045Rq8DSoipySmQblhVKxlXLva2GtNd5DhwCxHwW1RM0N9I7S2Vew==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-jBbjd8Z1ZIbmMjdUmZgKUXzYfCt2DP7sPnqR5//mM51mnQ4UoeRl2HRtfHiRRTmfCbJFoX9viLzo0UW4zJV0jw==" rel="stylesheet" href="https://github.githubassets.com/assets/site-1ff4ff5e4f0093fe173c3b2e49497e30.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-UuDKgNf/5qyjHC2IFg8kEkn3j2n+D4ShuvNV5eohEqUPfuPzqAxcd98IqomrgGo/g36tB35YvxoA1CbXgE0iFg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-5362384f9e2512870c388a187eaf4868.css" />
+    
+    
+    
+    
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>SARIT-corpus/samanyadusana.xml at master · sarit/SARIT-corpus · GitHub</title>
+    <meta name="description" content="The e-texts of the SARIT project. Contribute to sarit/SARIT-corpus development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars1.githubusercontent.com/u/9218659?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="sarit/SARIT-corpus" /><meta name="twitter:description" content="The e-texts of the SARIT project. Contribute to sarit/SARIT-corpus development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/9218659?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="sarit/SARIT-corpus" /><meta property="og:url" content="https://github.com/sarit/SARIT-corpus" /><meta property="og:description" content="The e-texts of the SARIT project. Contribute to sarit/SARIT-corpus development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+  <meta name="request-id" content="9AC1:6A49:92CCF3:CB8C31:5DCBA56D" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9AC1:6A49:92CCF3:CB8C31:5DCBA56D" /><meta name="octolytics-dimension-region_edge" content="ap-south-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="133891458087966257" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="M2VlMDFkYTBmMWUyMTNjMTNiYjI0N2FlMjM1ZjM5OTI1ZDU2MDI1MjY3ZTZjYTg5ZTc1OGM1ZGQ5Yzg4Zjk1ZXx7InJlbW90ZV9hZGRyZXNzIjoiNDkuMjA3LjEzOS45NCIsInJlcXVlc3RfaWQiOiI5QUMxOjZBNDk6OTJDQ0YzOkNCOEMzMTo1RENCQTU2RCIsInRpbWVzdGFtcCI6MTU3MzYyNzI1MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta name="html-safe-nonce" content="6b93db86e12e4ab6b0608cd6d7a36aba430b3ce1">
+
+  <meta http-equiv="x-pjax-version" content="a24d82d484ab528e3f0db8bcd6034055">
+  
+
+      <link href="https://github.com/sarit/SARIT-corpus/commits/master.atom" rel="alternate" title="Recent Commits to SARIT-corpus:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/sarit/SARIT-corpus git https://github.com/sarit/SARIT-corpus.git">
+
+  <meta name="octolytics-dimension-user_id" content="9218659" /><meta name="octolytics-dimension-user_login" content="sarit" /><meta name="octolytics-dimension-repository_id" content="25361685" /><meta name="octolytics-dimension-repository_nwo" content="sarit/SARIT-corpus" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="25361685" /><meta name="octolytics-dimension-repository_network_root_nwo" content="sarit/SARIT-corpus" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production emoji-size-boost page-responsive page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+    
+
+
+        <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+    <a class="Header-link" href="/sarit">sarit</a>
+    /
+    <a class="Header-link" href="/sarit/SARIT-corpus">SARIT-corpus</a>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a href="/join?source=header-repo"
+              class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8f1ae226e5080ae386be673a52bb77c4a10615009e2b14dee6b18063601a3a2c"
+              data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+              Sign&nbsp;up
+            </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                          <li class="edge-item-fix"><a href="/features/package-registry" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Package Registry">Package registry</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="25361685" data-scoped-search-url="/sarit/SARIT-corpus/search" data-unscoped-search-url="/search" action="/sarit/SARIT-corpus/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=VLujOXpUP6JxQDEJAww1OtexGakeip9mq6fBDz1XhI1Fr86M6W3DCX9kcsFjCy5sH6OE46ITbuGG4pgWjuE9tQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Fsarit%2FSARIT-corpus%2Fblob%2Fmaster%2Fsamanyadusana.xml"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6faf25ba81b1ae1bd065df469274d5952248417523a678486a98e1bab3316c67"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source=header-repo&amp;source_repo=sarit%2FSARIT-corpus"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6faf25ba81b1ae1bd065df469274d5952248417523a678486a98e1bab3316c67"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+    <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+
+      <ul class="pagehead-actions">
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2eaef7f889ee66064cde4aebd7d63fe20bbc98917960ea1ed7310bbe3803d4c8" href="/login?return_to=%2Fsarit%2FSARIT-corpus">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+</a>    <a class="social-count" href="/sarit/SARIT-corpus/watchers"
+       aria-label="10 users are watching this repository">
+      10
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:25361685,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1a33a9499031f779c223d98128c96edb2639e1ca90c3fd932820b73cf6281939" href="/login?return_to=%2Fsarit%2FSARIT-corpus">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
+    <a class="social-count js-social-count" href="/sarit/SARIT-corpus/stargazers"
+      aria-label="15 users starred this repository">
+      15
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:25361685,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4d30027bb746af73311d4650a45c136cd97034e6b92af7ff8a9db73c44993081" href="/login?return_to=%2Fsarit%2FSARIT-corpus">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+</a>
+    <a href="/sarit/SARIT-corpus/network/members" class="social-count"
+       aria-label="11 users forked this repository">
+      11
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/sarit/hovercard" href="/sarit">sarit</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/sarit/SARIT-corpus">SARIT-corpus</a></strong>
+  
+
+</h1>
+
+    </div>
+    
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /sarit/SARIT-corpus" href="/sarit/SARIT-corpus">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /sarit/SARIT-corpus/issues" href="/sarit/SARIT-corpus/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /sarit/SARIT-corpus/pulls" href="/sarit/SARIT-corpus/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /sarit/SARIT-corpus/projects" href="/sarit/SARIT-corpus/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /sarit/SARIT-corpus/security/advisories" href="/sarit/SARIT-corpus/security/advisories">
+      <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /sarit/SARIT-corpus/pulse" href="/sarit/SARIT-corpus/pulse">
+      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+      Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /sarit/SARIT-corpus" href="/sarit/SARIT-corpus">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /sarit/SARIT-corpus/issues" href="/sarit/SARIT-corpus/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /sarit/SARIT-corpus/pulls" href="/sarit/SARIT-corpus/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="3">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /sarit/SARIT-corpus/projects" href="/sarit/SARIT-corpus/projects">
+          <span itemprop="name">Projects</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="4">
+</a>      </span>
+
+
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /sarit/SARIT-corpus/security/advisories" href="/sarit/SARIT-corpus/security/advisories">
+        <span itemprop="name">Security</span>
+        <meta itemprop="position" content="6">
+</a>
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /sarit/SARIT-corpus/pulse" href="/sarit/SARIT-corpus/pulse">
+        Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+<div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+  <div class="repository-content ">
+
+    
+    
+
+
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/sarit/SARIT-corpus/blob/514687e3f8464a96d0e515af44b17218c0a82c4d/samanyadusana.xml">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v21:b10c55df26d7f4f466f46a783e806ea0 -->
+          <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="UqMRl3eeNHU2C+a+C5D4ziwY62xn7xtKf65l7URHU7HKy8ox9tXZIya6JYgkB9L3zdi9cCJ386Ju43rcDLuXSA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;31174034.1573574193&quot;,&quot;originating_request_id&quot;:&quot;9AC1:6A49:92CCF3:CB8C31:5DCBA56D&quot;,&quot;originating_url&quot;:&quot;https://github.com/sarit/SARIT-corpus/blob/master/samanyadusana.xml&quot;,&quot;referrer&quot;:&quot;https://github.com/sarit/SARIT-corpus/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c67bae56ba6a155b6d7318b2bce1b60a692867853b4467dc562c0987edd88cbe" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=sarit%2FSARIT-corpus">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
+      <span class="d-flex flex-justify-between width-full width-md-auto">
+        
+<details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
+  <summary class="btn btn-sm select-menu-button css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+  </summary>
+
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/sarit/SARIT-corpus/ref-list/master/samanyadusana.xml?source_action=show&amp;source_controller=blob" preload>
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+    </include-fragment>
+  </details-menu>
+</details>
+
+        <div class="BtnGroup flex-shrink-0 d-md-none">
+          <a href="/sarit/SARIT-corpus/find/master"
+                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+                data-pjax
+                data-hotkey="t">
+            Find file
+          </a>
+          <clipboard-copy value="samanyadusana.xml" class="btn btn-sm BtnGroup-item">
+            Copy path
+          </clipboard-copy>
+        </div>
+      </span>
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/sarit/SARIT-corpus"><span>SARIT-corpus</span></a></span></span><span class="separator">/</span><strong class="final-path">samanyadusana.xml</strong>
+      </h2>
+
+      <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
+        <a href="/sarit/SARIT-corpus/find/master"
+              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+              data-pjax
+              data-hotkey="t">
+          Find file
+        </a>
+        <clipboard-copy value="samanyadusana.xml" class="btn btn-sm BtnGroup-item">
+          Copy path
+        </clipboard-copy>
+      </div>
+    </div>
+
+
+
+    <include-fragment src="/sarit/SARIT-corpus/contributors/master/samanyadusana.xml" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
+      </div>
+
+      <div class="Box-body d-flex flex-items-center" >
+          <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
+
+
+
+
+    <div class="Box mt-3 position-relative">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      235 lines (228 sloc)
+      <span class="file-info-divider"></span>
+    33.3 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/sarit/SARIT-corpus/raw/master/samanyadusana.xml">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/sarit/SARIT-corpus/blame/master/samanyadusana.xml">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/sarit/SARIT-corpus/commits/master/samanyadusana.xml">History</a>
+    </div>
+
+
+    <div>
+            <a class="btn-octicon tooltipped tooltipped-nw"
+               href="https://desktop.github.com"
+               aria-label="Open this file in GitHub Desktop"
+               data-ga-click="Repository, open with desktop, type:mac">
+                <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+            </a>
+
+          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-xml ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>1.0<span class="pl-pds">&quot;</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>UTF-8<span class="pl-pds">&quot;</span></span>?&gt;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">TEI</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://www.tei-c.org/ns/1.0<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sāmānyadūṣaṇa<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">teiHeader</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">fileDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">titleStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">title</span>&gt;Sāmānyadūṣaṇa&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">author</span>&gt;Aśoka&lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">funder</span>&gt;German Research Foundation (DFG); Project &quot;SARIT: Enriching Digital Text Collections in Indology&quot; (Bilalteral Digital Humanities Programme DFG/NEH), 2013-2017&lt;/<span class="pl-ent">funder</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">principal</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">persName</span>&gt;Birgit Kellner&lt;/<span class="pl-ent">persName</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">principal</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">respStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">resp</span>&gt;data entry by&lt;/<span class="pl-ent">resp</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">name</span> <span class="pl-e">key</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>aurorachana<span class="pl-pds">&quot;</span></span>&gt;Aurorachana, Auroville&lt;/<span class="pl-ent">name</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">respStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">respStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">resp</span>&gt;prepared for SARIT by&lt;/<span class="pl-ent">resp</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">persName</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sarit-encoder-sādū<span class="pl-pds">&quot;</span></span>&gt;Liudmila Olalde&lt;/<span class="pl-ent">persName</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">respStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">titleStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">editionStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">p</span>&gt; &lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">editionStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">publicationStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">publisher</span>&gt;&quot;Project SARIT: Enriching Digital Text Collections in Indology&quot; (Bilalteral Digital Humanities Programme DFG/NEH), 2013-2017.&lt;/<span class="pl-ent">publisher</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">availability</span> <span class="pl-e">status</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>restricted<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">p</span>&gt;Copyright Notice:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">p</span>&gt;Copyright 2016-2018 SARIT&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">licence</span>&gt; </td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">p</span>&gt;Distributed under a &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://creativecommons.org/licenses/by-sa/4.0/<span class="pl-pds">&quot;</span></span>&gt;Creative Commons Attribution-ShareAlike 4.0 International licence.&lt;/<span class="pl-ent">ref</span>&gt; Under this licence, you are free to:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">item</span>&gt;Share — copy and redistribute the material in any medium or format.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">item</span>&gt;Adapt — remix, transform, and build upon the material for any purpose, even commercially.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">	    &lt;/<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">p</span>&gt;The licensor cannot revoke these freedoms as long as you follow the license terms.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">p</span>&gt;Under the following terms:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">item</span>&gt;Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">item</span>&gt;ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">	    &lt;/<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">p</span>&gt;More information and fuller details of this license are given on the Creative Commons website.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">	  &lt;/<span class="pl-ent">licence</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">p</span>&gt;SARIT assumes no responsibility for unauthorised use that infringes the rights of any copyright owners, known or unknown.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">availability</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">date</span>&gt;2016&lt;/<span class="pl-ent">date</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">publicationStmt</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">sourceDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">bibl</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sādū-thakur-book<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">title</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>main<span class="pl-pds">&quot;</span></span>&gt;Aśokanibandhau Avayavinirākaraṇaṃ Samānyadūṣaṇaṃ ca&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">author</span>&gt;Aśoka&lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">editor</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sādū-ed<span class="pl-pds">&quot;</span></span>&gt;Anantalal Thakur&lt;/<span class="pl-ent">editor</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">publisher</span>&gt;Kashi Prasad Jayaswal Research Institute&lt;/<span class="pl-ent">publisher</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">pubPlace</span>&gt;Patna&lt;/<span class="pl-ent">pubPlace</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">date</span>&gt;1974&lt;/<span class="pl-ent">date</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">note</span>&gt;The manuscript consulted by Thakur is described below.&lt;/<span class="pl-ent">note</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">bibl</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">listWit</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">witness</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sādū-msR<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">msDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">msIdentifier</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">idno</span>&gt;Ratnakīrtinibandha&lt;/<span class="pl-ent">idno</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">altIdentifier</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">idno</span>&gt;R&lt;/<span class="pl-ent">idno</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">note</span>&gt;This description is based on Thakur&#39;s introduction to his &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-thakur-book<span class="pl-pds">&quot;</span></span>&gt;1974 edition&lt;/<span class="pl-ent">ref</span>&gt; (pp. vii-viii).&lt;/<span class="pl-ent">note</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">		&lt;/<span class="pl-ent">altIdentifier</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">	      &lt;/<span class="pl-ent">msIdentifier</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">msContents</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">author</span>&gt;Ratnakīrti&lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">title</span>&gt;Ratnakīrtinibandha&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">		&lt;/<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">author</span>&gt;Aśoka&lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">title</span>&gt;Avayavinirākaraṇa&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">		&lt;/<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">author</span>&gt;Aśoka&lt;/<span class="pl-ent">author</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">title</span>&gt;Sāmānyaduṣaṇa&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">		&lt;/<span class="pl-ent">msItem</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">	      &lt;/<span class="pl-ent">msContents</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">physDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">objectDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">p</span>&gt;Thakur had access only to photographs of the palm-leave manuscript.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">		  &lt;<span class="pl-ent">p</span>&gt;The &lt;<span class="pl-ent">title</span>&gt;Avayavinirākaraṇa&lt;/<span class="pl-ent">title</span>&gt; covers folios 78b1-82a5. The &lt;<span class="pl-ent">title</span>&gt;Sāmānyaduṣana&lt;/<span class="pl-ent">title</span>&gt; covers folios 82a5-84b1. Both texts are placed between the &lt;<span class="pl-ent">title</span>&gt;Citrādvaitaprakāśavāda&lt;/<span class="pl-ent">title</span>&gt; and the &lt;<span class="pl-ent">title</span>&gt;Santānāntaradūṣaṇa&lt;/<span class="pl-ent">title</span>&gt;. The scribe is the same as in the &lt;<span class="pl-ent">title</span>&gt;Ratnakīrtinibandha&lt;/<span class="pl-ent">title</span>&gt;. Each side of a folio consists of six lines of ca. 138 syllables. The inner four lines leave a gap of 12 syllables for two perforations in the palm-leaves.  The script is proto-Maithili.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">		&lt;/<span class="pl-ent">objectDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">	      &lt;/<span class="pl-ent">physDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">history</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">		&lt;<span class="pl-ent">p</span>&gt;Photographs of manuscripts brought by Rahula Sankrityayana from Tibet discovered by Anantalal Thakur while editing the &lt;<span class="pl-ent">title</span>&gt;Ratnakīrtinibandhāvalī&lt;/<span class="pl-ent">title</span>&gt;.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">	      &lt;/<span class="pl-ent">history</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">	    &lt;/<span class="pl-ent">msDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">	  &lt;/<span class="pl-ent">witness</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">	  &lt;<span class="pl-ent">witness</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sādū-S<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">	    &lt;<span class="pl-ent">bibl</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">title</span>&gt;Six Buddhist Nyāya Tracts in Sanskrit&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">editor</span>&gt;Mahāmahopadhyāya Haraprasād Shāstri&lt;/<span class="pl-ent">editor</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">publisher</span>&gt;The Asiatic Society&lt;/<span class="pl-ent">publisher</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">pubPlace</span>&gt;Calcutta&lt;/<span class="pl-ent">pubPlace</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">	      &lt;<span class="pl-ent">date</span>&gt;1910&lt;/<span class="pl-ent">date</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">	    &lt;/<span class="pl-ent">bibl</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">	  &lt;/<span class="pl-ent">witness</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">	&lt;/<span class="pl-ent">listWit</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">sourceDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">fileDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">encodingDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;In the source file, there were two types of line breaks: returns (and possible surrounding space) and hyphens+returns. These were replaced with lb-elements. The ed-attribute &quot;tha&quot; refers to &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-thakur-book<span class="pl-pds">&quot;</span></span>&gt;Thakur&#39;s 1974 edition&lt;/<span class="pl-ent">ref</span>&gt;.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;The folio numbers were encoded as pb-elements with the ed-attribute &quot;msR&quot;, which refers to the &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span>&gt;manuscript used by Thakur&lt;/<span class="pl-ent">ref</span>&gt;.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;Round brackets (1 occurrence) were encoded as &lt;<span class="pl-ent">egXML</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://www.tei-c.org/ns/Examples<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">hi</span> <span class="pl-e">rend</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>brackets<span class="pl-pds">&quot;</span></span> /&gt;&lt;/<span class="pl-ent">egXML</span>&gt;.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;Additions in square brackets were enclosed in a supplied-element.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;Underlined items were enclosed in a &lt;<span class="pl-ent">egXML</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://www.tei-c.org/ns/Examples<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">hi</span> <span class="pl-e">rend</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>underline<span class="pl-pds">&quot;</span></span> /&gt;&lt;/<span class="pl-ent">egXML</span>&gt;.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;In the note-elements the &lt;<span class="pl-ent">gi</span>&gt;lb&lt;/<span class="pl-ent">gi</span>&gt;s were removed.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">	&lt;<span class="pl-ent">item</span>&gt;The footnotes were encoded as note-elements with their corresponding n-attribute. The footnote references were replaced by the note-elements.&lt;/<span class="pl-ent">item</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">list</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">      &lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">encodingDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">profileDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">      <span class="pl-c"><span class="pl-c">&lt;!--</span> ... <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">profileDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">revisionDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">change</span> <span class="pl-e">who</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://viaf.org/viaf/308710472/<span class="pl-pds">&quot;</span></span> <span class="pl-e">when</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>2016-05-26<span class="pl-pds">&quot;</span></span>&gt;Corrected the second reference to footnote 13-3 to 13-4.&lt;/<span class="pl-ent">change</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">    	&lt;<span class="pl-ent">change</span> <span class="pl-e">who</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://viaf.org/viaf/308710472/<span class="pl-pds">&quot;</span></span> <span class="pl-e">when</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>2016-05-31<span class="pl-pds">&quot;</span></span>&gt;Replaced <span class="pl-c1">&amp;lt;</span>add<span class="pl-c1">&amp;gt;</span> with <span class="pl-c1">&amp;lt;</span>supplied<span class="pl-c1">&amp;gt;</span> and updated the encoding description.&lt;/<span class="pl-ent">change</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">    	&lt;<span class="pl-ent">change</span> <span class="pl-e">who</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://viaf.org/viaf/308710472/<span class="pl-pds">&quot;</span></span> <span class="pl-e">when</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>2017-03-25<span class="pl-pds">&quot;</span></span>&gt;For a complete history of the changes in this file go to &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://github.com/sarit/SARIT-corpus/commits/master/samanyadusana.xml<span class="pl-pds">&quot;</span></span>&gt;SARIT GitHub Repository&lt;/<span class="pl-ent">ref</span>&gt;.&lt;/<span class="pl-ent">change</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">revisionDesc</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">teiHeader</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">text</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>sa-Deva<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">body</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">div</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>11<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">head</span>&gt;॥ सामान्यदूषणम् ॥&lt;/<span class="pl-ent">head</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>82a<span class="pl-pds">&quot;</span></span>/&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">l</span>&gt;व्यापकं नित्यमेकं च सामान्यं यैः प्रकल्पितम् ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;मोहग्रन्थिच्छिदे तेषां तदभावः प्रसाध्यते ॥&lt;/<span class="pl-ent">l</span>&gt;&lt;/<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;कथमिदमवगम्यते परस्परविलक्षणक्षणेषु&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>11-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°क्षणलक्षणेषु &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; प्रत्यक्षसमीक्ष्यमाणेष्वभिन्न&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;धीध्वनिप्रसवनिबन्धनमनुयायिरूपं सामान्यं न मान्यं मनीषिणामिति ?&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">साधकप्रमाणविरहाद् बाधकप्रमाणसंभवाच्चेति ब्रूमः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">l</span>&gt;तथा हि यदिदं सामान्यसाधनमनुमानमभिधीयते परैः,&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;यदनुगताकारं ज्न्ँआनं तदनुगतवस्तुनिबन्धनम् ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;यथा बहुषु पुष्पेषु स्रक् स्रगिति ज्न्ँआनम् ।&lt;/<span class="pl-ent">l</span>&gt;&lt;/<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>82b<span class="pl-pds">&quot;</span></span>/&gt; अस्ति च परस्परसंपर्कविकलकलासु कार्यादिव्यक्तिष्वनुगता&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कारं विज्न्ँआनं तदनैकान्तिकतादोषाक्रान्तशरीरत्वान्न तद्भावसाधनायालम् ।&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">यतो भवति बहुषु पाचकेषु पाचकः पाचक इति एकाकारपरामर्शप्रत्ययः ।&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">न च तेष्वनुगतमेकं वस्तु समस्ति । तद्भावे हि प्रागेव तथाविधप्रत्ययोत्पाद&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;प्रसङ्गो दुर्वारप्रचारः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;क्रियोपकारापेक्षाणां स्वलक्षणानां सामान्यव्यन्ँजकत्वादयमदोष इति&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">चेत् ? नैतदस्ति । नित्यानामनाधेयातिशयतयानुपकारिणि सहकारिण्यपेक्षा&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;योगात् । सातिशयत्वे वा प्रतिक्षणं विशरारुशरीरत्वात् क्रिया कुत इति&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line">दोषो दुष्परिहरः । क्रियानिबन्धनत्वात् पाचकेष्वनुगताकारप्रत्ययस्य नानै&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कान्तिकतादोष इत्यपि वार्तम् । प्रतिभेदं भिद्यमानानां कर्मणां तन्निबन्धनत्वा&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;योगात् । भिन्नानामप्यभिन्नाकारज्न्ँआननिबन्धनत्वे व्यक्तीनामपि तथाभावो&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">न राजदण्डनिवारितः । ततश्च सामान्यमेव नोपेयं स्यादिति मूलहरं&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">पक्षमाश्रयता देवानांप्रियेण सुष्ठु अनुकूलमाचरितम् । अनेनैव न्यायेन क्रिया&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कारकसंबन्धमभिन्नज्न्ँआननिबन्धनमुपकल्पयन् प्रतिक्षिप्तः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>12<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;पाकक्रियात्वनिबन्धनः पाचकेष्वनुगताकारः प्रत्ययः । तता नानै&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कान्तिकतादोष इत्यपि न मन्तव्यम् । न ह्यर्थान्तरसंबन्धिनी जातिरर्था&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;न्तरप्रत्ययोत्पत्तिहेतुः, अतिप्रसङ्गात् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;स्यादेतत् । समवेतसमवायसंबन्धबलात् पाकक्रियासामान्यं पाचकेष्व&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;भिन्नाकारं परामर्शप्रत्ययमुपजनयति । ततो न यथोक्तो दोषः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;तदिदमप्यसारम् । यत उदयानन्तरापवर्गितया&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>12-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;यत् °वर्जितया &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; कर्मणामेवासंभवात्,&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line">विनष्टे कर्मणि तत्सामान्यं न कर्मणि तदभावादेव, नापि कर्तरीति संबद्ध&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;संबन्धोऽप्यस्य नास्तीति नाभिन्नप्रत्ययहेतुः । तस्मात् स्थितमेतत्&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line">तदनैकान्तिकतादोषदुष्टत्वात् नेदमनुमानं सामान्यसत्तासाधनाय पर्याप्त&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मिति ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;इतश्चापि न सामान्यसत्तासाधनमिदमनुमानम् । यथैव हि परस्परा&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;सङ्कीर्णस्वभावा अपि शाबलेयादयो भावाः कयाचिदेव तदेककार्यप्रति&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;नियमलक्षणया स्वहेतुबलायातया प्रकृत्या तदेकमभिमतमनुगतरूपमुप&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कुर्वते, तदपरसामान्यान्तरमन्तरेणान्यथानवस्थाप्रसङ्गात्, तथा &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>12-2<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;तमेकं &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;तवैकं&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line">परामर्शप्रत्ययमुपजनयन्तु किमन्तरालगडुना व्यतिरेकवता सामान्येनो&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;पगतेन ?&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;अथोच्यते । प्रतिनियतशक्तयः सर्व&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>83a<span class="pl-pds">&quot;</span></span>/&gt;भावाः । एतच्च सामान्याप&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;लापिभिरपि नियतमभ्युपगमनीयम् । अन्यथा कुतः शालिबीजं शाल्यङ्कुर&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मेव जनयति न कोद्रवाङ्कुरमिति परपर्यनुयोगे भावप्रकृतिं मुक्त्वा किमपर&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मिह वचनीयमस्ति ?&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;एतच्चोत्तरमस्माकमपि न वनौकःकुलकवलितम् । तथा हि वय&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मप्येवं शक्ता एव वक्तुम् । सामान्यमेवोपकर्तुं शक्तिर्व्यक्तीनां भेदाविशेषेऽपि&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line">न तदेकं विज्न्ँआनमुपजनयितुमिति ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;अनुत्तरं बत दोषसङ्कटमत्रभवान् दृष्टिदोषेण &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>12-3<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;प्रविश्य &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;प्रवेश्यमानोऽपि नात्मान&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मात्मना संवेदयते । तथा हि शालिबीजतदङ्कुरयोरध्यक्षानुपलम्भनिबन्धने&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line">कार्यकारणभावेऽवगते शालिबीजं शाल्यङ्कुरं जनयितुं शक्तं न कोद्रवाङ्कुर&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मिति शक्यमभिधातुम् । नैवं सामान्यतद्वतोरुपकार्योपकारकभावः कुतश्चन&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>13<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line">प्रमाणात् निश्चितः । तत् कथमिदमुत्तरमभिधीयमानमादधीत साधिमान&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मित्यलमलीकनिर्बन्धनेन ? न साधकप्रमाणविरहमात्रेण प्रेक्षावताम्&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line">असद्व्यवहारः । ततस्तदभावसाधकमनुमानमभिधीयमानमस्माभिराकल्प्य&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;ताम्&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>13-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°राकल्य° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;यद् यदुपलब्धिलक्षणप्राप्तं सन्नोपलभ्यते, तत्तदसदिति प्रेक्षावद्भिः&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line">व्यवहर्तव्यम् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;यथाम्बराम्बुरुहम् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;नोपलभ्यते चोपलब्धिलक्षणप्राप्तं सामान्यं क्वचिदपीति स्वभावानु&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;पलब्धिः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;न चात्रासिद्धिदोषोद्भावनया प्रत्यवस्थातव्यम् । तथा हि अत्रासिद्धिः&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line">भवन्ती स्वरूपतो विशेषणतो वा भवेत् ? तत्र न तावदाद्या&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>13-2<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°दाद्यं &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; संभवति,&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line">अन्योपलम्भरूपस्यानुपलम्भस्याभ्युपगमात् । तस्य च स्वसंवेदनप्रत्यक्ष&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;साक्षात्कृतस्वरूपत्वात् कुतः स्वरूपासिद्धिदोषावकाशः ?&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;अथोच्यते स्वसंवेदनमेव न संभवति, स्वात्मनि क्रियाविरोधात् । न हि&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line">तयैवासिधारया सैवासिधारा च्छिद्यते; तदेवाङ्गुल्यग्रं तेनैवाङ्गुल्यग्रेण स्पृश्यत&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code blob-code-inner js-file-line">इति । अतोऽसिद्ध एवायं हेतुः । &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>13-3<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;तदेदं &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;तदिदं स्वसंवेदनशब्दार्थापरिज्न्ँआन&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;विजृम्भितमेव प्रकटयति वाचः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;तथा हि कलसकलधौतकुवलयादिभ्यो व्यावृत्तं विज्न्ँआनमुपजायते । तेन&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code blob-code-inner js-file-line">बोधरूपतयोत्पत्तिरेवास्य स्वसंवित्तिरुच्यते, प्रकाशवत् । न कर्मकर्तृक्रिया&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;भावात् । एकस्यानंशरूपस्य त्रैरूप्यानुपपत्तितः । यथैव हि प्रकाशकान्तर&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;निरपेक्षः प्रकाशः प्रकाशमान आत्मनः प्रकाशक उच्यते, तथा ज्न्ँआनमपि&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code blob-code-inner js-file-line">ज्न्ँआनान्तरनिरपेक्षं प्रकाशमानमात्मनः प्रकाशकमुच्यते ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;ततोऽयं पर&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>83b<span class="pl-pds">&quot;</span></span>/&gt;मार्थः । न ज्न्ँआनं ज्न्ँआनान्तरसंवेद्यमुपपद्यते, नाप्य&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;संविदितमुच्यते । यथा प्रकारे च स्वसंवेदनशब्दार्थे विवक्षिते न किन्ँचिद्&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>13-4<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;वचनीयकमस्ति &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;वचनीयमस्ति कुतो यथोक्तदोषावसरः ?&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="LC183" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;नापि विशेषणासिद्ध्यासिद्धिरुद्भावनीया । उपलब्धिलक्षणप्राप्ततया&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="LC184" class="blob-code blob-code-inner js-file-line">सामान्यस्य स्वयमेव परैरुपगमात् । तथानभ्युपगमे वा न सामान्यबलेन&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="LC185" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;वा कुलेया° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;बाहुलेयादिष्वनुगताकारौ धीध्वनी स्याताम् । न हि यतो यत्र ज्न्ँआनाभिधान&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;प्रवृत्तिः, &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-2<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°लम्भने ?&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;तदनुपलक्षणे तस्य प्रतीतिर्भवति, दण्डिवत् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="LC186" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;यत् पुनरिदमुद्द्योतितम् &lt;<span class="pl-ent">hi</span> <span class="pl-e">rend</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>underline<span class="pl-pds">&quot;</span></span>&gt;उदद्योतकरेण&lt;/<span class="pl-ent">hi</span>&gt;, किं सामान्यं प्रतिपद्यसे न वा ?&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="LC187" class="blob-code blob-code-inner js-file-line">यदि प्रतिपद्यसे, कथमपह्नुषे ? अथ न प्रतिपद्यसे, तदा तस्यासिद्धत्वादा&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;श्रयासिद्धो हेतुः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="LC188" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;तदिदं तस्य &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-3<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°पिता° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;धर्मिस्वरूपतानभिज्न्ँअताविजृम्भितमाभाति, यतो न वयं&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="LC189" class="blob-code blob-code-inner js-file-line">बहीरूपतया सामान्यं धर्मितयाङ्गीकुर्महे, अन्तर्मात्रानिवेशिनो भावाभावो&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;भयानुभयाहितवासनापरिपाकप्रभवस्याध्यस्तबहिर्वस्तुनो ज्न्ँआनाकारस्य धर्मि&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;तयोपयोगात्&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-4<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°नुभवाहित° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt; °पगमात् &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; । स च स्वसंवेदनप्रत्यक्षसिद्धतया न शक्यः प्रतिक्षेप्तुम् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="LC190" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;तदत्र धर्मिणि व्यवस्थिताः सदसत्त्वे चिन्तयन्ति । किमयं सामान्यशब्द&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;विकल्पप्रतिभासार्थो धर्मी परपरिकल्पितबहिःसामान्यनिबन्धनो वेति ? तस्य&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="LC191" class="blob-code blob-code-inner js-file-line">बाह्यानुपादानत्वे &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-5<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;साध्ये तथानु° ?&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;साध्यतयानुपलम्भो हेतुः । न पुनस्तस्यैवाभावः प्रसाध्यते,&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="LC192" class="blob-code blob-code-inner js-file-line">तद्विषयशब्दाप्रयोगप्रसङ्गात् । एवंविधे च धर्मिणि विवक्षिते कुत आश्रया&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;सिद्धिदोषः ?&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="LC193" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;यत् तूच्यते, प्रत्यक्षप्रमाणसिद्धस्वभावतया सामान्यस्यासिद्ध एवायं&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="LC194" class="blob-code blob-code-inner js-file-line">हेतुरिति तदयुक्तम्, तस्य स्वरूपेणाप्रतिभासनात् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="LC195" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;इदमेव हि प्रत्यक्षस्य प्रत्यक्षत्वम्, यत् स्वरूपस्य स्वबुद्धौ समर्पणम् ।&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="LC196" class="blob-code blob-code-inner js-file-line">इदं पुनर्मूल्यादानक्रयि सामान्यं स्वरूपं च नादर्शयति, प्रत्यक्षतां च स्वी&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कर्तुमिच्छति । तथा हि न वयं परस्परासङ्कीर्णशाबलेयादिव्यक्तिभेदप्रति&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;भासनवेलायां तद्विलक्षणमपरमनुगतमध्यक्षेणेक्षामहे, &lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>14-6<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;कण्ठेशन° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;कण्ठेगुणमिव भूतेषु,&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="LC197" class="blob-code blob-code-inner js-file-line">शाबलेयसामान्यबुद्धेरसिद्धेः । तत् कथमदृष्टकल्पनयात्मानमात्मना विप्रल&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;भेमहि ? इति नासिद्धो हेतुः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="LC198" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;नाप्यनैकान्तिकता शङ्काविषयमतिपतति, विपक्षवृत्त्यदर्शनात् । असपक्षे&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="LC199" class="blob-code blob-code-inner js-file-line">संभवानुपलम्भात् साधारणानैकान्तिकता मा भूत्, सन्दिग्धविपक्षव्यावृत्ति&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;कता तु प्रतिबन्धादर्शनादनिवारितप्रसरैव ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="LC200" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="LC201" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>15<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="LC202" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>15-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;तदेतन्न समा° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;तदेतदनालोचिततर्ककर्कशधियामभिधानम्, विपर्यये बाधकप्रमाण&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;सामर्थ्यादप&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>84a<span class="pl-pds">&quot;</span></span>/&gt;सारितसद्भावत्वात् तदाशङ्कायाः । तथा हि असत्त्वे साध्ये&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="LC203" class="blob-code blob-code-inner js-file-line">सत्त्वं विपक्षः । तत्र प्रत्यक्षवृत्त्या भवितव्यम्, यतो यद् यदाविकलाप्रतिहत&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;सामर्थ्यम्, तत् तदा भवत्येव । तद् यथा अविकलबलसकलकारणकलापो&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;ऽङ्कुरः । सति च चक्षुरादिसाकल्ये दृश्ये वस्तुन्यविकलाप्रतिबद्धशक्तिकारणं&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="LC204" class="blob-code blob-code-inner js-file-line">प्रत्यक्षं ज्न्ँआनमिति स्वभावहेतुः । ततो विरुद्धोपलम्भाद् विपक्षाद् व्यावर्त&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;मानो हेतुरसद्व्यवहारयोग्यत्वेन व्याप्यत इति व्याप्तिसिद्धेर्नानैकान्तिकः ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="LC205" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;अभिमतसाध्यप्रतिबन्धसिद्धेस्तु विरुद्धता दूरतरसमुत्सारितरभस&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;प्रसरैव ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="LC206" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;ततोऽसिद्धतादिदूषणशङ्काकलङ्कानङ्किताद्धेतोः&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>15-2<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;अतः...&lt;<span class="pl-ent">supplied</span> <span class="pl-e">resp</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-ed<span class="pl-pds">&quot;</span></span>&gt;क ?&lt;/<span class="pl-ent">supplied</span>&gt; लङ्कि &lt;<span class="pl-ent">supplied</span> <span class="pl-e">resp</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-ed<span class="pl-pds">&quot;</span></span>&gt;कृ&lt;/<span class="pl-ent">supplied</span>&gt;ता° &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; प्रस्तुतवस्तुसिद्धौ सिद्धम्&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="LC207" class="blob-code blob-code-inner js-file-line">असत्त्वं सामान्यस्येत्यलमतिबहुविस्तरविसारिण्या कथयेति विरम्यते ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="LC208" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;न च वस्तुसंस्थानवत् सामान्यं&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>15-3<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;सामान्यं न &lt;<span class="pl-ent">hi</span> <span class="pl-e">rend</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>brackets<span class="pl-pds">&quot;</span></span>&gt;?&lt;/<span class="pl-ent">hi</span>&gt; &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; व्यक्तेर्लक्षणम् । न चानुवृत्तव्यावृत्त&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;वर्णाद्यात्मके जातिव्यक्ती वर्णादिनियतप्रतिभासप्रतीतिप्रसङ्गात्, व्यक्तेरे&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;वासौ प्रतिभास इति चेत् ? कोऽपरस्तर्हि सामान्यस्यानुगताकार इति चेत् ?&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="LC209" class="blob-code blob-code-inner js-file-line">ननु वर्णसंस्थाने विरहय्य किमपरमनुगामि विद्यते ? जातिव्यक्त्योः समवाय&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;बलादविभावितविभागयोः क्षीरोदकयोरिव परस्परमिश्रणेन प्रतिपत्तिरिति&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="LC210" class="blob-code blob-code-inner js-file-line">चेत् ? न तर्हि सामान्यविशेषयोरेकतरस्यापि रूपं गृहीतम् । स्वरूपाग्रहणे&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="LC211" class="blob-code blob-code-inner js-file-line">अनयोरप्यग्रहणमिति निरालम्बनैव सा तादृशी प्रतिपत्तिरिति परमार्थ आवे&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;दितस्तावत् । निरालम्बनया च प्रतीत्या व्यवस्थाप्यमानं सामान्यं सुव्यव&lt;<span class="pl-ent">lb</span> <span class="pl-e">break</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>no<span class="pl-pds">&quot;</span></span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;स्थापितम् ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="LC212" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">l</span>&gt;तस्माद् विशेष्यासिद्ध्यापि नायमसिद्धो हेतुः ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="LC213" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;सपक्षे वर्तमानो विरुद्ध इत्यपि न मन्तव्यः ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="LC214" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;अनैकान्तिकताप्यस्य न संभावनामर्हति ।&lt;/<span class="pl-ent">l</span>&gt;&lt;/<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="LC215" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;असद्व्यवहारानपेक्षत्वेन हि दृश्यानुपलम्भो व्याप्तः । यदि हि सन्नपि&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
+        <td id="LC216" class="blob-code blob-code-inner js-file-line">तत्र न प्रवर्तयेत्, इह सापेक्षः स्यात् । ततो विपक्षाद् व्यापकविरुद्धावरुद्धाद्&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
+        <td id="LC217" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
+        <td id="LC218" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>16<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
+        <td id="LC219" class="blob-code blob-code-inner js-file-line">व्यावर्तमानोऽसद्व्यवहारे विश्राम्यतीति । अतस्तेनासद्व्यवहारेणानुपलम्भो&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
+        <td id="LC220" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>16-1<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;व्याप्यत इति &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;व्याप्त इति कुतोऽनेकान्तः ? ततश्च स एवार्थः समायातः ।&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
+        <td id="LC221" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">l</span>&gt;एतासु पन्ँचस्ववभासनीषु&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
+        <td id="LC222" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;प्रत्यक्षबोधे स्फुटमङ्गुलीषु ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
+        <td id="LC223" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;साधारणं षष्ठमिहेक्षते यः&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L224" class="blob-num js-line-number" data-line-number="224"></td>
+        <td id="LC224" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;शृङ्गं शिरस्यात्मन ईक्षते&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>16-2<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;ईष्यते &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; सः ॥&lt;/<span class="pl-ent">l</span>&gt;&lt;/<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L225" class="blob-num js-line-number" data-line-number="225"></td>
+        <td id="LC225" class="blob-code blob-code-inner js-file-line">इति ।&lt;/<span class="pl-ent">p</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L226" class="blob-num js-line-number" data-line-number="226"></td>
+        <td id="LC226" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">l</span>&gt;सर्वस्य च पूर्वोक्तस्यायं परमार्थः ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L227" class="blob-num js-line-number" data-line-number="227"></td>
+        <td id="LC227" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;प्रत्यक्षप्रतिभासिवर्ष्मसु न पन्ँचस्वङ्गुलीषु स्थितं&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>16-3<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;°वर्त्म न पन्ँच…लीषु स्थितम् &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;, °भासि धर्मसु &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;. &lt;<span class="pl-ent">ref</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;Intro. p. V&lt;/<span class="pl-ent">ref</span>&gt;, °ष्ववस्थितम् &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;R&lt;/<span class="pl-ent">ref</span>&gt;.&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt;&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L228" class="blob-num js-line-number" data-line-number="228"></td>
+        <td id="LC228" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;सामान्यं प्रतिभासते न च विकल्पाकारबुद्धौ तथा ।&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L229" class="blob-num js-line-number" data-line-number="229"></td>
+        <td id="LC229" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;ता एवास्फुटमूर्तयोऽत्र हि विभासन्ते &lt;<span class="pl-ent">pb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msR<span class="pl-pds">&quot;</span></span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>84b<span class="pl-pds">&quot;</span></span>/&gt; न जातिस्ततः&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L230" class="blob-num js-line-number" data-line-number="230"></td>
+        <td id="LC230" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;सादृश्यभ्रमकारणौ पुनरिमावेकोपलब्धिध्वनी ॥&lt;/<span class="pl-ent">l</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L231" class="blob-num js-line-number" data-line-number="231"></td>
+        <td id="LC231" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">l</span>&gt;इति सामान्यसिद्धिदूषणा दिक् प्रसाधिता&lt;<span class="pl-ent">note</span> <span class="pl-e">n</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>16-4<span class="pl-pds">&quot;</span></span>&gt;&lt;<span class="pl-ent">p</span>&gt;प्रसारिता &lt;<span class="pl-ent">ref</span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>#sādū-S<span class="pl-pds">&quot;</span></span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en<span class="pl-pds">&quot;</span></span>&gt;S&lt;/<span class="pl-ent">ref</span>&gt;.&lt;/<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">note</span>&gt; ॥&lt;/<span class="pl-ent">l</span>&gt;&lt;/<span class="pl-ent">lg</span>&gt;&lt;<span class="pl-ent">lb</span> <span class="pl-e">ed</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>tha<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L232" class="blob-num js-line-number" data-line-number="232"></td>
+        <td id="LC232" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">trailer</span>&gt;॥ कृतिरियं पण्डिताशोकस्य ॥&lt;/<span class="pl-ent">trailer</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L233" class="blob-num js-line-number" data-line-number="233"></td>
+        <td id="LC233" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">div</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L234" class="blob-num js-line-number" data-line-number="234"></td>
+        <td id="LC234" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">body</span>&gt;&lt;/<span class="pl-ent">text</span>&gt;&lt;/<span class="pl-ent">TEI</span>&gt;</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13 7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/sarit/SARIT-corpus/blame/514687e3f8464a96d0e515af44b17218c0a82c4d/samanyadusana.xml">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/sarit/SARIT-corpus/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.30282s from unicorn-85bf9f45d6-9z8tm">GitHub</span>, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-hcybWmnZc/MmTSqQy1XHK+BnCKGf74XHXtSJUqDjQbGCitPaKuZomLtzEnWzud5zyr0Cx5cowKxapak6m711cg==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-fcbb97e8.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-mEhViOqajTVIWIt8vaNeZgWVSKFCUJuydMJcDSsZGeWRk/vg1IodwsjZNLW6zpqHESnkvCRcBkYkF1oGf0uMeQ==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-f844e701.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xml:id="sarit-corpus" version="5.2" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>The SARIT Corpus</title>
+	<respStmt>
+	  <name>SARIT: Search and Retrieval of Indic Texts</name>
+	  <resp>Creation and maintenance of the XML files in the SARIT corpus.</resp>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<authority><persName xml:id="patmcall">Patrick McAllister</persName></authority>
+        <publisher>SARIT: Search and Retrieval of Indic Texts</publisher>
+        <availability status="restricted">
+          <p>Copyright Notice</p>
+          <p>Copyright 2014-2018 SARIT</p>                        
+          <p>
+	    This file (<ref target="./">saritcorpus.xml</ref>), and the files it includes unless specified otherwise in the respective headers of those files, are
+            <ref target="http://creativecommons.org/licenses/by-sa/3.0/" type="licence">distributed by <ref target="http://sarit.indology.info" type="url">SARIT</ref> under a Creative Commons Attribution-ShareAlike 3.0
+            Unported License. </ref>
+          </p>
+          <p>Under this licence, you are free <list>
+          <item>to Share — to copy, distribute and transmit the work</item>
+          <item>to Remix — to adapt the work </item>
+          </list></p>
+          <p>Under the following conditions:</p>
+          <p>
+            <list>
+              <item>Attribution — You must attribute the work in the manner specified
+              by the author or licensor (but not in any way that suggests that
+              they endorse you or your use of the work).</item>
+              <item>Share Alike — If you alter, transform, or build upon this work,
+              you may distribute the resulting work only under the same or similar
+              license to this one.</item>
+            </list>
+          </p>
+          <p>More information and fuller details of this license are given on the Creative
+          Commons website.</p>
+          <p>SARIT assumes no responsibility for unauthorised use that infringes the
+          rights of any copyright owners, known or unknown.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+	<p>This file was born digitally, please see <ref target="https://github.com/sarit/SARIT">https://github.com/sarit/SARIT</ref> for its history.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2017-01-12" who="#patmcall">Updated copyright for 2017.</change>
+    </revisionDesc>
+    <!-- header for corpus -->
+  </teiHeader>
+  <xi:include href="arunadatta-sarvangasundara.xml"/>
+  <xi:include href="asvaghosa-buddhacarita.xml"/>
+  <xi:include href="astangahrdayasamhita.xml"/>
+  <xi:include href="astangasangraha.xml"/>
+  <xi:include href="astavakragita.xml"/>
+  <xi:include href="avayavinirakarana.xml"/>
+  <xi:include href="ayurvedasutram.xml"/>
+  <xi:include href="bhartrhari-vakyapadiya.xml"/>
+  <xi:include href="bhoja-rajamartanda.xml"/>
+  <xi:include href="brahmapurana.xml"/>
+  <xi:include href="cakradatta.xml"/>
+  <xi:include href="carakasamhita.xml"/>
+  <xi:include href="caryamelapakapradipa.xml"/>
+  <xi:include href="dasarupaka.xml"/>
+  <xi:include href="dharmottarapradipa.xml"/>
+  <xi:include href="dharmottaratippanaka.xml"/>
+  <xi:include href="dvadasara_nayacakra.xml"/>
+  <xi:include href="govindabhagavatpada-rasahrdayatantra.xml"/>
+  <xi:include href="jitari-isvaravadimatapariksa.xml"/>  
+  <xi:include href="jitari-jatinirakrti.xml"/>
+  <xi:include href="jitari-nairatmyasiddhi.xml"/>
+  <xi:include href="jitari-sarvajnasiddhi.xml"/>
+  <xi:include href="jitari-vedapramanyasiddhi.xml"/>
+  <xi:include href="jnanasrimitra-nibandhavali.xml"/>
+  <xi:include href="kautalyarthasastra.xml"/>
+  <xi:include href="kumarila-tantravarttika.xml"/>
+  <xi:include href="mahabharata-devanagari.xml"/>
+  <xi:include href="manusmrti.xml"/>
+  <xi:include href="naradasmrti.xml"/>
+  <xi:include href="nityanatha-rasaratnakara-rasayanakhanda.xml"/>
+  <xi:include href="nyayakumudacandra.xml"/>
+  <xi:include href="nyayamanjari.xml"/>
+  <xi:include href="nyayavarttikatatparyatika.xml"/>
+  <xi:include href="patanjalayogasastra.xml"/>
+  <xi:include href="pramanamimamsa-and-vrtti.xml"/>
+  <xi:include href="pramanantarbhava.xml"/>
+  <xi:include href="pramanavarttikalankarabhasya.xml"/>
+  <xi:include href="pramanavarttikaparisista-1.xml"/>
+  <xi:include href="pramanavarttikasvavrttitika.xml"/>
+  <xi:include href="pramanavarttikavrtti.xml"/>
+  <xi:include href="prasastapada-padarthadharmasangraha.xml"/>
+  <xi:include href="pravarasena-setubandha.xml"/>
+  <xi:include href="ratnakirti-nibandhavali.xml"/>
+  <xi:include href="ratnasritika-dn.xml"/>
+  <xi:include href="samanyadusana.xml"/>
+  <xi:include href="sarasvatikanthabharana-dn.xml"/>
+  <xi:include href="siddhayoga.xml"/>
+  <xi:include href="siddhiviniscayatika.xml"/>
+  <xi:include href="skandapurana.xml"/>
+  <xi:include href="susrutasamhita.xml"/>
+  <xi:include href="tarkabhasa.xml"/>
+  <xi:include href="tarkarahasya.xml"/>
+  <xi:include href="tattvasangrahapanjika.xml"/>
+  <xi:include href="ugraditya-kalyanakaraka.xml"/>
+  <xi:include href="vacaspati-tattvavaisaradi.xml"/>
+  <xi:include href="vadanyayatika.xml"/>
+  <xi:include href="vadasthana.xml"/>
+  <xi:include href="vagbhata-rasaratnasamuccaya-comms.xml"/>
+  <xi:include href="vatsyayana-nyayabhasya.xml"/>
+  <xi:include href="vidhiviveka-and-nyayakanika.xml"/>  
+</teiCorpus>

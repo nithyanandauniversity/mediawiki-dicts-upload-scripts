@@ -28,7 +28,7 @@ def get_definitions_from_sqlite_db(word):
         FROM data da
         INNER JOIN dictionaries di
         ON da.source = di.id
-        WHERE key=? AND da.source = 'WIL'
+        WHERE key=? AND source = 'WIL'
         ORDER BY name, lnum
     """
     c.execute(query, t)
@@ -41,8 +41,9 @@ def get_definitions_from_sqlite_db(word):
         # print()
         # print(row)
         definitions[row["book_name"]].append(row["data"])
-        # print(row["data"])
-        # break
+        print(row["data"])
+
+    return definitions
 
     content = ""
     for book_name, definitions in definitions.items():

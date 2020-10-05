@@ -6,12 +6,11 @@ load_dotenv()
 
 MEDIAWIKI_LOGIN = os.getenv("MEDIAWIKI_LOGIN")
 MEDIAWIKI_PASSWORD = os.getenv("MEDIAWIKI_PASSWORD")
+URL = os.getenv("API_URL")
 
 
 def create_page(title, content):
     S = requests.Session()
-
-    URL = "http://localhost:8000/api.php"
 
     # Step 1: GET request to fetch login token
     PARAMS_0 = {"action": "query", "meta": "tokens", "type": "login", "format": "json"}
